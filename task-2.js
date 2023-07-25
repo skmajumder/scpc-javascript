@@ -14,6 +14,4 @@ function add(arr) {
 
 const numbers = [2, -5, 10, -3, 7];
 const result = add(numbers);
-console.log(
-  `The sum of all positive numbers in the array [${numbers}] is: ${result}`
-);
+console.log(result);

@@ -21,4 +21,5 @@ const number1 = 10;
 const number2 = 50;
 const operator = "+";
 
-calculator(number1, number2, operator);
+const result = calculator(number1, number2, operator);
+console.log("Result:", result);

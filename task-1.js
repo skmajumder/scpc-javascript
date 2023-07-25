@@ -2,7 +2,7 @@
  ** Task 1 : Create a function that takes a string as input and returns the reversed version of the string without using the built-in reverse() method.
  */
 
-function reverseString(input) {
+function reverseString(input = "") {
   const clearInput = input.replace(/[^a-zA-Z0-9\s]/g, "");
   let reverseStr = "";
 
@@ -13,7 +13,6 @@ function reverseString(input) {
 }
 
 const inputString = "hello world";
-const revereString = reverseString(inputString);
+const revereString = reverseString();
 
-console.log(`Original Input: ${inputString}`);
-console.log(`Reverse Output: ${revereString}`);
+console.log(revereString);
